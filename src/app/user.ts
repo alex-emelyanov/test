@@ -1,0 +1,21 @@
+export class User{
+	general{
+		firstName:string,
+		lastName:string,
+		avatar:image
+	},
+	job{
+		company:stirng,
+		title:string
+	},
+	contact{
+		email:string,
+		phone:number
+	},
+	address{
+		street:string,
+		city:string,
+		zipCode:number,
+		country:string
+	}
+}

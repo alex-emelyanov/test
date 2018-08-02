@@ -1,0 +1,21 @@
+
+<ul *ngFor="let user of users" [class.selected]="hero === selectedHero"
+    (click)="onSelect(hero)"><div class="general">
+                
+				
+                <p>Имя пользователя: {{user.general?.firstName}}</p>
+				<p>Должность: {{user.job?.title}}</p>
+               <!-- <p>Фамилия пользователя: {{user.general?.lastName}}</p>
+				<img src="{{user.general?.avatar}}">
+				<p>Фирма: {{user.job?.company}}</p>
+				
+				<p>Электронная почта: {{user.contact?.email}}</p>
+				<p>Номер телефона: {{user.contact?.phone}}</p>
+				<p>Улица: {{user.address?.street}}</p>
+				<p>Город: {{user.address?.city}}</p>
+				<p>Почтовый индекс: {{user.address?.zipCode}}</p>
+				<p>Страна: {{user.address?.country}}</p>-->
+				</div>
+                
+            </ul>
+			
