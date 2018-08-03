@@ -2,6 +2,22 @@
 .client-text{
 	font-size:23px;
 }
+.gen-block{
+	width:100%
+	}
+.img-block
+{
+	float:left;
+	width:29%;
+	margin:auto;
+	
+}
+.data-block{
+	float:right;
+	margin:auto;
+	text-align:center;
+	Width:69%;
+}
 .wrapper{
 	width:100%
 }
@@ -12,7 +28,7 @@ h2{
 	text-align:justify;
 	float:left;
 	width:29%;
-	border-style:solid;
+	
 	max-width:500px;
 	min-width:200px;
 	margin:auto;
@@ -21,15 +37,16 @@ h2{
 	float:right;
 	text-align:center;
 	Width:69%;
-	border-style:solid;
-	min-width:507px;
+	
+	max-width:935px;
 	margin:auto;
 	}
 	.selected {
   background-color: #CFD8DC !important;
   color: white;
 }
-.img{
+img{
+	display:block;
 	height:35px;
 	width:35px;
 	margin-right:5px

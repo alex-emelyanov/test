@@ -4,9 +4,16 @@
 	<div class="list">
 		<ul class="list-group">
 		<li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let user of users" [class.selected]="user === selectedUser" (click)="onSelect(user)">
-			  <img src="{{user.general?.avatar}}" class="img">
-				<p>{{user.general?.firstName | uppercase}}</p>
-				<p>{{user.job?.title}}</p>
+			
+				<div class="img-block">
+					<img src="{{user.general?.avatar}}" class="rounded-circle">
+				</div>
+				
+					<p>{{user.general?.firstName | uppercase}}</p>
+					<p>{{user.job?.title}}</p>
+				
+				
+				
 			</li>
 			</ul>	
 	</div>
