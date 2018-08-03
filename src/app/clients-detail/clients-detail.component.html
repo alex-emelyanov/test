@@ -1,0 +1,38 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap-flex.min.css" rel="stylesheet" >
+<div *ngIf="user" class="clients-detail">
+	<div class="img-general">
+		<img src="{{user.general?.avatar}}" class="img2">
+	</div>
+	<div class="detail">
+		<ul class="list-group">	
+				<div class="general">
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<p>Firstname: {{user.general?.firstName}}</p>
+						<p>Lastname: {{user.general?.lastName}}</p>
+					</li>
+				</div>
+				<div class="job">
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<p>Company: {{user.job?.company}}</p>
+						<p>Title: {{user.job?.title}}</p>
+					</li>
+				</div>
+				<div class="contact">
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<p>Email: {{user.contact?.email}}</p>
+						<p>Phone: {{user.contact?.phone}}</p>
+					</li>
+				</div>
+				<div class="address">
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<p>Street: {{user.address?.street}}</p>
+						<p>City: {{user.address?.city}}</p>
+						<p>ZipCode: {{user.address?.zipCode}}</p>
+						<p>Country: {{user.address?.country}}</p>
+					</li>
+				</div>
+			
+		</ul>
+	</div>				
+</div>

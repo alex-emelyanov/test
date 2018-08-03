@@ -19,6 +19,7 @@ export class AppComponent implements OnInit {
           
        this.httpService.getData().subscribe(data => this.users=data["userList"]);
     }
+	
 	onSelect(user: User): void {
     this.selectedUser = user;
   }

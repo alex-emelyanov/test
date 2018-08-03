@@ -1,18 +1,18 @@
 export class User{
-	general{
+	general:{
 		firstName:string,
 		lastName:string,
 		avatar:image
-	},
-	job{
+	}
+	job:{
 		company:stirng,
 		title:string
-	},
-	contact{
+	}
+	contact:{
 		email:string,
 		phone:number
-	},
-	address{
+	}
+	address:{
 		street:string,
 		city:string,
 		zipCode:number,

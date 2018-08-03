@@ -1,4 +1,40 @@
-.general
-{
-	border:solid;
+
+.client-text{
+	font-size:23px;
 }
+.wrapper{
+	width:100%
+}
+h2{
+	text-align:center;
+}
+.list{
+	text-align:justify;
+	float:left;
+	width:29%;
+	border-style:solid;
+	max-width:500px;
+	min-width:200px;
+	margin:auto;
+	}
+.data{
+	float:right;
+	text-align:center;
+	Width:69%;
+	border-style:solid;
+	min-width:507px;
+	margin:auto;
+	}
+	.selected {
+  background-color: #CFD8DC !important;
+  color: white;
+}
+.img{
+	height:35px;
+	width:35px;
+	margin-right:5px
+}
+.client-block{
+	height:30px;
+}
+
